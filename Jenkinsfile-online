@@ -10,10 +10,10 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'leiyu1982'
+        DOCKER_CREDENTIAL_ID = 'dockerhub-id'
         REGISTRY = 'docker.io'
         DOCKERHUB_NAMESPACE = 'leiyu1982'
-        GITHUB_ACCOUNT = 'kubesphere'
+        GITHUB_ACCOUNT = 'leiyu1982'
         APP_NAME = 'devops-java-sample'
     }
 
